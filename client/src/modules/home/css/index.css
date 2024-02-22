@@ -1,0 +1,54 @@
+.menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.menu:hover > div > div {
+    background-color: #CC6600;
+    cursor: pointer;
+}
+
+.menu-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF7F00;
+    padding: 6px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.menu-text {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-color: #565656; 
+    padding: 8px;
+    border-radius: 50px; 
+    width: 150px;
+}
+
+.announce-card {
+    align-items: center;
+    justify-content: flex-start; 
+    border: 1px solid #EEEEEE;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    /* cursor: pointer; */
+}
+
+.announce-card:hover {
+    align-items: center;
+    justify-content: flex-start; 
+    border: 1px solid #EEEEEE;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    /* cursor: pointer; */
+    box-shadow: 1px 1px 15px 1px rgb(184, 184, 184);
+}
+

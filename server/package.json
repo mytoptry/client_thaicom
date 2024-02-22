@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^41.0.0",
+    "aimlparser": "^1.0.5",
+    "api": "^6.1.1",
+    "axios": "^1.6.7",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "formidable": "^1.2.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "line-notify-nodejs": "^1.0.0",
+    "mailgun-js": "^0.22.0",
+    "moment": "^2.29.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.15",
+    "omise": "^0.8.5    ",
+    "react-moment": "^1.1.1",
+    "request": "^2.88.2",
+    "sequelize": "^6.6.2",
+    "sequelize-transforms": "^2.0.0",
+    "url-join": "^5.0.0"
+  }
+}
